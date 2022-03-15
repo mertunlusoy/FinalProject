@@ -5,10 +5,8 @@ using Entities.Concrete;
 
 namespace DataAccess.Abstract
 {
-    //Dal -- Data access layer
-    public interface IProductDal:IEntityRepository<Product>
+    interface ICustomerDal:IEntityRepository<Customer>
     {
-        
 
     }
 }
